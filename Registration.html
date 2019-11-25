@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Registration</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">	
+        </script>
+        <script src="registration.js"></script>
+        <link rel="stylesheet" href="registration_Style.css">
+	</head>
+	<body>
+		<div class="container" >
+			
+		<div>
+			<br><br>
+			<div class="row">
+			<h1 class="registr"> Регистрация </h1> 
+		
+		</div>
+			
+		</div>
+			<form role="form">
+			<div class="form-group">
+				<label class="control-label"> Ваша фамилия </label>
+				<input required pattern=".{1,25}" type="name" class="col-md-6 form-control" placeholder="Иванов" >
+		</div>
+			
+		<div class="form-group">
+				<label class="control-label"> Ваше имя</label>
+				<input required pattern=".{1,25}" type="name" class="col-md-6 form-control" placeholder="Иван">
+		</div>
+				
+			<div class="form-group">
+				<label class="control-label"> Email </label>
+				<input type="name" required pattern=".{1,25}" class="col-md-6 form-control" placeholder="email">
+			</div>
+			<div class="checkbox">
+				<label>
+					<input type="checkbox"> мужской
+					<input type="checkbox"> женский
+				</label>
+			</div>
+				
+			<div class="password">
+				<label for="password">Пароль</label>
+				<input required type="password" pattern=".{8,30}" class="col-md-6 form-control" id="password" placeholder="Введите пароль">
+				<p class="help-block"> <small>Ваш пароль должен быть от 8 до 30 символов длиной, и содержать одну заглавную букву, один символ, и число </small></p>
+			</div>
+			    <br>
+			<div class="checkbox">
+				<label>
+					<input required type="checkbox"> С правилами сайта ознакомлен и согласен.
+				</label>
+			</div>
+			<div class="button">
+				<button class="btn btn-info">Войти</button>
+			</div>
+
+		
+	</form>
+		</div>
+
+	</body>
+</html>

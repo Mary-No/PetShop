@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PetShop</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/paw.png" type="image/png">
+</head>
+
+<body>
+	<div class="header">
+			<div class="wrapper">
+				<header>
+					<ul class="hdr-list">
+						<li>
+							<a href="index.html"><img src="img/logo.jpg" alt="logo"></a>
+						</li>
+					
+						<li> <a href="index.html" class="basket">Корзина <br />покупок</a>
+						</li>
+					</ul>
+					<div class="info-block">
+						<ul class="net-icons">
+							<li><a href="index.html"></a></li>
+							<li><a href="index.html" class="fb"></a></li>
+							<li><a href="index.html" class="tw"></a></li>
+						</ul>
+						<span class="tel">+375 29 256-75-25</span>
+						<ul class="registration">
+							<li><a href="index.html">Войти</a></li>
+							<li><a href="Registration.html" >Зарегистрироваться</a></li>
+						</ul>
+					</div>
+				</header>
+			</div>
+	</div>
+	<div class="nav">
+			<div class="wrapper">
+				<nav>
+					<ul>
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="index.html">Каталог   <img src="img/arr.png"></a>
+							<ul>
+								<li><a href="index.html">Собаки</a></li>
+								<li><a href="index.html">Кошки</a></li>
+								<li><a href="index.html">Грызуны</a></li>
+								<li><a href="index.html">Птицы</a></li>
+								<li><a href="index.html">Аквариумистика</a></li>
+							</ul>
+						</li>
+						<li><a href="index.html">Скидки</a></li>
+						<li><a href="index.html">Оплата</a></li>
+						<li><a href="index.html">Доставка</a></li>
+						<li><a href="index.html">О нас</a></li>
+						
+					</ul>
+				</nav>
+			</div>
+	</div>
+	<div class="main">
+		<div class="wrappers">
+			<div class="sitebar">
+				<div class="products-name">
+					<ul>
+						<li><a href="index.html">сухие корма и пресервы</a></li>
+						<li><a href="index.html">лакомства</a></li>
+						<li><a href="index.html">витамины и пищевые добавки</a></li>
+						<li><a href="index.html">уход и гигиена</a></li>
+						<li><a href="index.html">игрушки</a></li>
+						<li><a href="index.html">одежда</a></li>
+					</ul>
+				</div>
+			<form action="/" method="post">
+				<div class="sb-block brand">
+				<h3 class="title">Бренды</h3>
+				<ul>
+					<li><input type="checkbox" name="bosh" value="bosh"><label> Bosch (Германия)</label></li>
+					<li><input type="checkbox" name="brit" value="brit"><label> Brit (Чехия)</label></li>
+					<li><input type="checkbox" name="Friskies" value="=Friskies"><label> Friskies (Россия)</label></li>
+					<li><input type="checkbox" name="Kitekat" value="Kitekat"><label> Kitekat (Россия)</label></li>
+					<li><input type="checkbox" name="Purina" value="Purina"><label> Purina Pro Plan (Италия, Франция, Россия)</label></li>
+					<li><input type="checkbox" name="Royal" value="Royal"><label> Royal Canin (Франция, Россия)</label></li>
+					<li><input type="checkbox" name="Whiskas" value="Whiskas"><label> Whiskas</label></li>
+				</ul>
+			</div>
+			<div class="sb-block price">
+				<h3 class="title">Цена</h3>
+				<form>
+					<div>
+						<ul class="form">
+							<li><label> <b>От</b></label>
+							<input name="from" required pattern=".{1,4}" placeholder="  0" > </li>
+							<li><label> <b>До</b></label>
+							<input name="before" required pattern=".{1,4}" placeholder="  1250" > </li>
+						</ul>
+					</div>
+				</form>
+			</div>
+			<div class="sb-block age">
+				<h3 class="title">Возраст питомца</h3>
+				<ul>
+					<li><input type="checkbox" name="adult" value="adult"><label> Для взрослых</label></li>
+					<li><input type="checkbox" name="baby" value="baby"><label> Для котят </label></li>
+					<li><input type="checkbox" name="elderly" value="elderly"><label> Для пожилых </label></li>
+				</ul>
+			</div>
+			<div class="but">
+				<a href="index.html" class="button">Подобрать</a>
+			</div>
+			</form>
+			</div>
+			<div class="right-col"> 
+				<ul class="products-list">
+					<li>
+						<img src="img/catFood/img1.jpg" alt="image">
+						<div class="product">
+							<p><b>Bosh</b></p>
+							<p>Корм для пожилых котов</p>
+							<div class="price-block">
+								400гр
+								<p class="old-price"> 9р.50коп</p>
+								<p class="price">8р.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="img/catFood/img2.jpg" alt="image">
+						<div class="product">
+							<p><b>Brit</b></p>
+							<p>Корм для взрослых,<br /> активных котов</p>
+							<div class="price-block">
+								400гр
+								<p class="price">7р. 80коп.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="img/catFood/img3.jpg" alt="image">
+						<div class="product">
+							<p><b>Purina pro plan</b></p>
+							<p>Корм для котят с витаминами</p>
+							<div class="price-block">
+								400гр
+								<p class="old-price"> 13р.</p>
+								<p class="price">11р. 30коп.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="img/catFood/img4.jpg" alt="image">
+						<div class="product">
+							<p><b>Royal Canin</b></p>
+							<p>Корм обогащённый<br /> микроэлементами</p>
+							<div class="price-block">
+								500гр
+								<p class="price">12р.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="img/catFood/img5.jpg" alt="image">
+						<div class="product">
+							<p><b>Whiskas</b></p>
+							<p>Корм для котов от 1года</p>
+							<div class="price-block">
+								200гр
+								<p class="price">2р.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="img/catFood/img6.jpg" alt="image">
+						<div class="product">
+							<p><b>Friskies</b></p>
+							<p>Просто вкусный корм с мясом<br />(но это не точно)</p>
+							<div class="price-block">
+								300гр
+								<p class="price">5р.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="pager">
+					<li><a href="index.html"> предыдущая</a></li>
+					<li><a href="index.html">1</a></li>
+					<li><a href="index.html">2</a></li>
+					<li><a href="index.html">3</a></li>
+					<li><a href="index.html">следующая</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="wrapper">
+			<footer>
+				<div class="right-footb">
+					<ul>
+						<li>
+							<p>e-mail: petshop@mail.com</p>
+							<p>тел. +375 29 565 86 46</p>
+						</li>
+					</ul>
+					<a href="#">Условия использования сайта</a>
+				</div>
+				<div class="left-footb">
+					<ul>
+						<li><h4>PetShop</h4></li>
+					<li><p>Все права защищены</p></li>
+					<li><p>создание сайта Новик М.А. 2019</p></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
